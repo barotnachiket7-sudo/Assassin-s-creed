@@ -1,0 +1,851 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: start;
+    display: flex;
+    color: white;
+    font-family: ;
+}
+
+.navbar nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.909);
+    padding: 10px;
+    gap: 200px;
+}
+
+.navbar nav ul li h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    width: 500px;
+    /* border: 2px solid red; */
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: .3s linear;
+    padding: 20px;
+
+}
+
+.navbar nav ul li a:hover {
+    color: rgb(249, 12, 12);
+    transition: .3s linear;
+}
+
+.navbar button {
+    padding: 10px 20px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 200px;
+    border: none;
+    justify-content: space-evenly;
+    transition: .5s;
+
+}
+
+.navbar button:hover {
+    background-color: red;
+    transition: .5s;
+    border-radius: 30px;
+    display: flex;
+}
+
+.cointer {
+    width: 100%;
+    height: 100vh;
+    /* border:  4px solid red; */
+    background-image: url(Assian\ craed223.jpg);
+    background-size: cover;
+    color: rgb(247, 8, 8);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 10px 20px;
+    text-align: center;
+    /* position: relative; */
+    gap: 30px;
+    flex-direction: column;
+}
+
+.cointer h1 {
+    font-size: 40px;
+}
+
+.cointer p {
+    font-size: 30px;
+    color: white;
+}
+
+.cointer button {
+    padding: 10px;
+    width: 90px;
+    border-radius: 600px;
+    border: none;
+    color: black;
+    background-color: red;
+    transition: .5s;
+}
+
+.cointer button:hover {
+    background-color: white;
+    transition: .5s;
+}
+
+.omega {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+
+
+}
+
+.alpha {
+    width: 400px;
+    /* height: 100vh; */
+    /* border: 5px solid red; */
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border: solid red;
+    padding: 20px;
+
+}
+
+.alpha img {
+    width: 70%;
+
+}
+
+.alpha h1 {
+    color: red;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.alpha p {
+    font-size: 20px;
+}
+
+.alpha button {
+    border-radius: 600px;
+    padding: 10px 20px;
+    border: none;
+    background-color: red;
+    color: black;
+    gap: 20px;
+    transition: .5s;
+}
+
+.alpha button:hover {
+    background-color: white;
+    transition: .5s;
+}
+
+
+
+.gama {
+    width: 400px;
+    /* height: 100vh; */
+    border: 5px solid red;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border: solid red;
+    padding: 20px;
+
+}
+
+.gama img {
+    width: 70%;
+
+}
+
+.gama h1 {
+    color: red;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.gama p {
+    font-size: 20px;
+}
+
+.gama button {
+    border-radius: 600px;
+    padding: 10px 20px;
+    border: none;
+    background-color: red;
+    color: black;
+    gap: 20px;
+    transition: .5s;
+}
+
+.gama button:hover {
+    background-color: white;
+    transition: .5s;
+}
+
+
+
+
+.beta {
+    width: 400px;
+    /* height: 100vh; */
+    /* border: 5px solid red; */
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border: solid red;
+    padding: 20px;
+}
+
+.beta img {
+    width: 70%;
+
+}
+
+.beta h1 {
+    color: red;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.beta p {
+    font-size: 20px;
+}
+
+.beta button {
+    border-radius: 600px;
+    padding: 10px 20px;
+    border: none;
+    background-color: red;
+    color: black;
+    gap: 20px;
+    transition: .5s;
+}
+
+.beta button:hover {
+    background-color: white;
+    transition: .5s;
+}
+
+.cointer h1:hover {
+    color: red;
+}
+
+
+
+
+
+
+
+.data{
+width: 100%;
+height: 100vh;
+/* border: 5px solid red; */
+background-color: black;
+display: flex;
+}
+.left
+.right {
+    width: 100%;
+    height: 100vh;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    padding:  10px 20px;
+    margin-top: 20px;
+    background-color: black;
+    color: aliceblue;
+}
+.data{
+    width: 100%;
+    height: 100vh;
+    align-items: start;
+    justify-self: center;
+
+}
+.left{
+    width: 100%;
+    height: 100vh;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.left h1{
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+}
+.left p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left button{
+    border-radius: 600px;
+    border: none;
+    padding: 10px 20px;
+    color: rgb(15, 15, 15);
+    background-color: red;
+    transition: .5s;
+    gap: 30px;
+
+gap: 20px;
+}
+.left h1{
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.left p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.right
+ {
+    width: 100%;
+    height: 100vh;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+ }
+ .right img{
+   
+    border-radius: 600px;
+    object-fit: contain;
+    object-position: center;
+    border: 5px solid red;
+
+ }
+ .left button:hover{
+    background-color: white;
+    transition: .5s;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .class{
+width: 100%;
+height: 100vh;
+/* border: 5px solid red; */
+background-color: black;
+display: flex;
+}
+.up
+.down {
+    width: 100%;
+    height: 100vh;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    padding:  10px 20px;
+    margin-top: 20px;
+    background-color: black;
+    color: aliceblue;
+}
+.class{
+    width: 100%;
+    height: 100vh;
+    align-items: start;
+    justify-self: center;
+
+}
+.down{
+    width: 100%;
+    height: 100vh;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.down h1{
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+}
+.down p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.down button{
+    border-radius: 600px;
+    border: none;
+    padding: 10px 20px;
+    color: rgb(15, 15, 15);
+    background-color: red;
+    transition: .5s;
+    gap: 30px;
+
+gap: 20px;
+}
+.down h1{
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.dowm p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.up
+ {
+    width: 100%;
+    height: 80vh;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+ }
+ .up img{
+   
+    border-radius: 600px;
+    object-fit: contain;
+    object-position: center;
+    border: 5px solid red;
+
+ }
+ .down button:hover{
+    background-color: white;
+    transition: .5s;
+ }
+ .one{
+      width: 100%;
+      height: 100vh;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      gap: 40px;
+
+ }
+ .dalta{
+     width: 400px;
+    /* height: 100vh; */
+    /* border: 5px solid red; */
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border: 5px double red;
+    transition: .3sz;
+    padding: 20px; 
+ }
+
+ .dalta:hover{
+border-radius: 20px;
+transition: .2s;
+ }
+ .dalta img{
+    width: 350px;
+ }
+ .dalta h1{
+    color: red;
+ }
+ .dalta p{
+    color: white;
+ }
+ 
+
+
+ .octa{
+     width: 400px;
+    /* height: 100vh; */
+    /* border: 5px solid red; */
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border: 5px double red;
+    transition: .3s;
+    padding: 20px; 
+ }
+ .octa:hover{
+    border-radius: 20px;
+    transition: .3s;
+ }
+ .octa img{
+    width: 350px;
+ }
+ .octa h1{
+    color: red;
+ }
+ .octa p{
+    color: white;
+ }
+
+
+
+
+
+ .hexza{
+     width: 400px;
+    /* height: 100vh; */
+    /* border: 5px solid red; */
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border: 5px double red;
+    transition: .3s ease;
+    padding: 20px;  
+    border-radius: 10px;
+ }
+ .hexza:hover{
+    border-radius: 20px;
+    transition: .3s ease;
+ }
+ .hexza img{
+    width: 330px;
+ }
+ .hexza h1{
+    color: red;
+ }
+ .hexza p{
+    color: white;
+ }
+
+ .one
+ button{
+    border: none;
+    border-radius: 600px;
+    background-color: red;
+    color: black;
+    padding: 10px 20px;
+    transition: .5s;
+ }
+ .one button:hover{
+    background-color: white;
+    transition: .5s;
+ }
+
+
+
+
+
+
+ .close{
+    width: 100%;
+    height: 100vh;
+    /* border: 5px solid red; */
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    /* flex-direction: column; */
+    background-color:black;
+    gap: 70px;
+ }
+
+ .section{
+    width: 20%;
+    height: 60vh;
+    align-items: start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /* border: 5px solid red; */
+
+ }
+ .section img{
+    width: 100%;
+    height: 70vh;
+ }
+ .section h1{
+    color: red;
+ }
+ .section p{
+    color: white;
+ }
+
+
+
+ .ok{
+    width: 20%;
+    height: 60vh;
+    align-items: start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /* border: 5px solid red; */
+ }
+ .ok img{
+    width: 100%;
+    height: 48vh;
+ }
+ .ok h1{
+    color: red;
+ }
+ .ok p{
+    color: white;
+ }
+ 
+ .om{
+    width: 20%;
+    height: 60vh;
+    align-items: start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /* border: 5px solid red; */
+ }
+ .om img{
+    width: 100%;
+    height: 54vh;
+ }
+ .om h1{
+    color: red;
+ }
+ .om p{
+    color: white;
+ }
+
+
+
+ world{
+    width: 20%;
+    height: 60vh;
+    align-items: start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid red;
+ }
+ .world img{
+    width: 100%;
+    height: 54vh;
+ }
+ .world h1{
+    color: red;
+ }
+ .world p{
+    color: white;
+ }
+.close
+ button{
+    border: none;
+    border-radius: 600px;
+    background-color: red;
+    color: black;
+    padding: 10px 20px;
+    transition: .5s;
+ }
+ .close button:hover{
+    background-color: white;
+    transition: .5s;
+ }
+ .close p{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ 
+ .close h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ 
+ .footer {
+    width: 100%;
+    height: 50vh;
+    /* border: 5px solid red; */
+    align-items: start;
+    /* justify-content: center; */
+    background-color: rgba(252, 252, 247, 0.457);
+    color: black;
+    /* padding: 20px; */
+}
+
+.header-card {
+    width: 25%;
+
+    align-items: start;
+    gap: 20px;
+}
+
+.header-card p {
+    height: 25px;
+    font-size: 20px;
+}
+
+.header-card h4 {
+    padding: 20px;
+    align-items: start;
+}
+
+.footer-card {
+    width: 25%;
+    margin-top: 10px;
+}
+
+.footer h4 {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer-card h4{
+    padding: 10px;
+}
+.footer-card p{
+    height: 25px;
+    font-size: 20px;
+}
+.header{
+    width: 25%;
+    font-size: 20px;
+    align-items: start;
+    gap: 20px;
+}
+
+.header p {
+    height: 25px;
+    font-size: 20px;
+     gap: 40px;
+     
+    
+}
+
+.header h4 {
+    padding: 20px;
+    align-items: start;
+}
+.sa-bar {
+width: 25%;
+
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+}
+.sa-bar h4{
+    padding: 20px;
+    align-items: start;
+}
+.sa-bar p{
+    
+    font-size: 20px;
+     gap: 40px;
+     
+}
+
+.so-card{
+    display: flex;
+   align-items: start;
+   justify-content: center;
+   
+}
+.so-card  button {
+    padding: 10px 20px;
+    background-color: #0a0a0a;
+    color: rgba(235, 228, 228, 0.925);
+    border:  none;
+    border-radius: 200px;
+   
+}
+.footer p:hover {
+color: red;
+transition: .5s;
+}
+.up-right {
+    color: black!important;
+    background-color: rgba(24, 25, 25, 0.568) !important;
+    padding: 30px;
+    
+}
+.sa-bar button:hover{
+    background-color: grey;
+    transition: .5s;
+}
+.footer-card {
+    gap :30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-card {
+    gap :30px;
+    display: flex;
+    flex-direction: column;
+     padding: 20px;
+
+}
+.header-card p{
+    gap: 20px;
+    display: flex;
+}
+
+.header{
+    gap :30px;
+    display: flex;
+    flex-direction: column;
+}
+.so-card {
+    gap :20px;
+    display: flex;
+    /* flex-direction: column; */
+}
+.header-card img{
+    width: 30px;
+    object-fit: contain;
+}
+.image img{
+
+ width: 40px;
+ gap: 20px;
+ /* display: flex; */
+ flex-direction: row;
+}
+ .footer{
+    background-color: rgba(249, 12, 12, 0.614);
+ }
+.footer p:hover{
+color: white;
+}
+.footer h4:hover{
+    color: white;
+}
+ 
